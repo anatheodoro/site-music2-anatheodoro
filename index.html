@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Music Ana</title>
+<link rel="stylesheet" href="reset.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="styles.css">
+
+<body>  
+<header class="cabecalho">
+            <div class="container">
+            <input type="checkbox" id="menu" class="container-botao">
+            <label for="menu" class="container_rotulo">
+            <span class="menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+            <li class="lista-menu-titulo">CATEGORIAS</li> 
+            <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Novidades</a>
+            </li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Tudo</a>
+            </li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Playlist</a>
+            </li>
+            <li class="lista-menu-item">
+            <a href="#" class="lista-menu-link">Álbuns</a>
+            </li>
+            </ul>
+            <img class="capaana" src="img/ana.png" alt="capa">
+            </div>
+            <div class="container">
+                <a href="#"><img src="img/Favorite.svg" alt="Favorite" class="container-imagem"></a> 
+                <a href="#"><img src="img/Usuários.svg" alt="Usuários" class="container-imagem"></a>
+                <a href="#"><img src="img/Compras.svg" alt="compras" class="container-imagem"></a> 
+            </div>
+</header>
+
+    <section class="banner">
+            <h2 class="banner__titulo">Music Ana</h2>
+            <p class="banner__texto">O melhor da música</p>
+            <input type="search" class="banner__pesquisa" placeholder="Encontre sua música">
+    </section>
+    <section class="carrossel">
+            <h2 class="carrossel-titulo">Os maiores hits do momento</h2>
+                        <!-- Slider main container -->
+            <div class="carrossel_container">
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/collide.PNG" alt="msc1"></div>
+            <div class="swiper-slide"><img src="img/daylight.PNG" alt="msc2"></div>
+            <div class="swiper-slide"><img src="img/starboy.PNG" alt="msc3"></div>
+            <div class="swiper-slide"><img src="img/those eyes.PNG" alt="msc4"></div>
+
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            </div>
+
+            <div class="card">
+                <!--1 linha-->
+                <div class="card_descricao">
+                    <!--1 coluna-->
+                    <div class="descricao">
+                        <h3 class="descricao_titulo">Spotify</h3>
+                        <h2 class="descricao_titulo-2">O melhor aplicativo de música</h2>
+                        <p class="descricao_texto">Mais informações clique em "Saiba mais"</p>
+                    </div>
+                    <!--2 coluna-->
+                    <img src="img/spotify-logo.webp" alt="spotify" class="descricao_imagem">
+                </div>
+    
+                <!--2 linha-->
+                <div class="card_botoes">
+                    <!--1 coluna-->
+                    <ul class="botoes">
+                        <li class="botoes_item"><img src="img/Favorite.svg" alt="Favoritos"></li>
+                        <li class="botoes_item"><img src="img/Compras.svg" alt="Compras"></li>
+                    </ul>
+                    <!--2 coluna-->
+                    <a href="#" class="botoes_ancora">Saiba mais...</a>
+                </div>
+            </div>    
+            </div>
+
+    </section>
+
+    
+    <section class="topicos">
+        <h2 class="topicos_titulo">TÓPICOS</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">SPOTIFY</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">SOUNDCLOUD</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">APPLE MUSIC</a>            
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">YT MUSIC</a>            
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="contato">
+        <h2 class="contato_titulo">Music Ana</h2>
+        <p class="contato_texto">Descubra o que está passando no mundo da música</p>
+        <input type="email" placeholder="Faça Login" class="contato_email">
+    </section>
+
+    <hr/>
+
+    <footer class="rodapé">
+        <h2 class="rodapé_titulo">Music Ana</h2>
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">EMPRESA</li>
+                <li class="lista_rodapé_item">
+                    <img src="img/CasaDoCodigo.png" alt="Sobre">
+                    <a href="#" class="lista_rodapé_link">Sobre</a>
+                </li>
+
+                <li class="lista_rodapé_item">
+                    <img src="img/Caelum.png" alt="Empregos">
+                    <a href="#" class="lista_rodapé_link">Empregos</a>
+                </li>
+        </ul>
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">COMUNIDADES</li>
+            <li class="lista_rodapé_item">
+                <img src="img/Alura.png" alt="For the Record">
+                <a href="#" class="lista_rodapé_link">For the Record</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraEmpresas.png" alt="Para Artistas">
+                <a href="#" class="lista_rodapé_link">Para Artistas</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraLatam.png" alt="Publicidade">
+                <a href="#" class="lista_rodapé_link">Publicidade</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraStart.png" alt="Investidores">
+                <a href="#" class="lista_rodapé_link">Investidores</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/MusicDot.png" alt="Fornecedores">
+                <a href="#" class="lista_rodapé_link">Fornecedores</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/AluraLingua.png" alt="Desenvolvedores">
+                <a href="#" class="lista_rodapé_link">Desenvolvedores</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/PM3.png" alt="Alura">
+                <a href="#" class="lista_rodapé_link">Spotify</a>
+            </li>
+        </ul>
+
+
+
+        <ul class="lista_rodapé">
+            <li class="lista_rodapé_titulo">RECURSOS</li>
+            <li class="lista_rodapé_item">
+                <img src="img/HipstersTech.png" alt="Flow">
+                <a href="#" class="lista_rodapé_link">Flow</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/Scuba.png" alt="Identificar músicas">
+                <a href="#" class="lista_rodapé_link">Identificar músicas</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/Layers.png" alt="Lyrics">
+                <a href="#" class="lista_rodapé_link">Lyrics</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/LikeABoss.png" alt="Transferir sua biblioteca">
+                <a href="#" class="lista_rodapé_link">Transferir sua biblioteca</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/CarreiraSemFronteira.png" alt="Escute offline">
+                <a href="#" class="lista_rodapé_link">Escute offline</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/HipstersJobs.png" alt="Podcasts">
+                <a href="#" class="lista_rodapé_link">Podcasts</a>
+            </li>
+
+            <li class="lista_rodapé_item">
+                <img src="img/GUJ.png" alt="Rádios">
+                <a href="#" class="lista_rodapé_link">Rádios</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                }, 
+                });     
+    </script>
+</body>
+</html>
